@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43D9D492-A6E1-2374-CB3B-2C77BF150587" name="T_INSIGHTIA_AUDITORIA">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:36:37 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AUDITORIA" id="290A7D11-A518-CF21-A140-34E3FF4E89BC">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:37:43 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO_AUDITORIA" id="E0E5839E-3522-8778-542B-A549937EC0E9">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:38:05 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_AUDITORIA" id="B428C9C7-643D-DC17-1790-34D9D40C650E">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:38:43 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMANDO AUDITORIA" id="39CCD088-A2E0-1ED8-85D0-69EAAF6512F0">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:39:23 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VLR_ANTIGO" id="06F5E46D-0C6B-49B0-DCB0-15C4A33517C0">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:39:44 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VLR_NOVO" id="2B37E85A-372D-99F8-E00D-031EA28F4F1B">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:40:02 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLUNA_AFETADA" id="91D4C946-9EEF-267A-8DC9-F16B732C8123">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 23:44:33 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TABELA_AFETADA" id="7EFCD051-7AF2-14EB-2700-4BAF4A58B8CE">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 23:44:59 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9886CFBA-0A9D-DE07-59B4-79F9DE248CDF" name="PK_T_INSIGHT_AUDITORIA PK">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:38:02 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>290A7D11-A518-CF21-A140-34E3FF4E89BC</newElementsIDs>
+<usedAttributes>
+<attributeRef>290A7D11-A518-CF21-A140-34E3FF4E89BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

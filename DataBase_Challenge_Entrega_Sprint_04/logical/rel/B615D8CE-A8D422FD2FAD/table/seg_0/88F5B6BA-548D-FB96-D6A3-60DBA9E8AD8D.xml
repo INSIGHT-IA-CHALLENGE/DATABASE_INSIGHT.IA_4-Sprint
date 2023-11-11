@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88F5B6BA-548D-FB96-D6A3-60DBA9E8AD8D" name="T_INSIGHTIA_AUDITORIA">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>43D9D492-A6E1-2374-CB3B-2C77BF150587</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AUDITORIA" id="75F0D23E-4B1F-29AF-C8D3-789327FCF7E1">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>290A7D11-A518-CF21-A140-34E3FF4E89BC</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_AUDITORIA" id="15F016F6-5DB3-EAA0-FEBB-2E3B1151618E">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>E0E5839E-3522-8778-542B-A549937EC0E9</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_AUDITORIA" id="FDFADD05-8470-7008-27CF-15677EB40CFF">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>B428C9C7-643D-DC17-1790-34D9D40C650E</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMANDO_AUDITORIA" id="2E81D6C8-9F72-3F05-7C7F-525F1E7AF7A9">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>39CCD088-A2E0-1ED8-85D0-69EAAF6512F0</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLR_ANTIGO" id="0182D95C-487F-29C0-0C1B-D089A7E758A7">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>06F5E46D-0C6B-49B0-DCB0-15C4A33517C0</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLR_NOVO" id="F870A615-BF44-BACE-F14B-D176D9C74AB4">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>2B37E85A-372D-99F8-E00D-031EA28F4F1B</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUNA_AFETADA" id="C7F3D819-B28D-76A2-7B73-85A4D8B7E77C">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 23:45:21 UTC</createdTime>
+<generatorID>91D4C946-9EEF-267A-8DC9-F16B732C8123</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABELA_AFETADA" id="18FCE09C-7280-0E34-A9A5-20CC64C91058">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 23:45:21 UTC</createdTime>
+<generatorID>7EFCD051-7AF2-14EB-2700-4BAF4A58B8CE</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="748F1BCE-B199-65F5-E2C7-A84942055011" name="PK_T_INSIGHT_AUDITORIA_PK">
+<createdBy>gumor</createdBy>
+<createdTime>2023-09-11 00:41:43 UTC</createdTime>
+<generatorID>9886CFBA-0A9D-DE07-59B4-79F9DE248CDF</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75F0D23E-4B1F-29AF-C8D3-789327FCF7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

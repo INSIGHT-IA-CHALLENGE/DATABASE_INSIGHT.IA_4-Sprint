@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E11ED15-2A2A-D55E-81E8-E9ED0C036CF3" name="T_INSIGHTIA_TRANSACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:29:17 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TRANSACAO" id="007B2484-2616-4FF1-A02D-13E9D9CF42BA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:29:56 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO " id="4EEBC165-EB2E-5F38-FD62-C562CC110FAF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 22:44:13 UTC</createdTime>
+<generatorID>DB91A53B-DC1C-5572-B280-87527A2D83EC</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<referedAttribute>FFD93EEA-4CDC-F71E-C0F3-2A155BF7D8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TITULO" id="BA194B34-FB36-2964-3F0E-371C9C80210A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:29:56 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TRANSACAO" id="2A812A4B-FE6F-5424-96E3-E8CF9C86D8C1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:29:56 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="1E83F6D7-CDD7-025A-2354-6D6F757713FD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:31:09 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_VALOR" id="621E4E51-309D-E66A-8306-0081877B8B97">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:31:39 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71BC31F1-8A63-0906-1724-FFC86BF7EA5A" name="PK_T_INSIGHTIA_TRANSACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:30:17 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>007B2484-2616-4FF1-A02D-13E9D9CF42BA</newElementsIDs>
+<usedAttributes>
+<attributeRef>007B2484-2616-4FF1-A02D-13E9D9CF42BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

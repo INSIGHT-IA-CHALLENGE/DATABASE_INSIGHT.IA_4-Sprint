@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB8FF199-9AB4-1A3F-DCBE-F4C9F39FF3B6" name="T_INSIGHTIA_ANUNCIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>98575E04-9012-06B0-6AFB-B24E1394D787</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANUNCIO" id="E746B262-C763-D34C-68C6-B4485F1C2AF7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>7DA3ECC5-19AB-9E54-BEC2-D3B8FC2574E1</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="43C970F9-A78E-9DA7-A2FB-BFFCA1E269EA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>E0AB565D-1F57-5283-D760-8080AFA3C4A6</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC99B10C-4B26-9B91-CF86-66024C79353B" referredColumn="0AEC76A3-D8E9-692A-A18F-E9C97BD94DC3"/>
+</associations>
+</Column>
+<Column name="SG_ATIVO" id="7A3AAE7D-1AF6-AE8A-A6CC-1AA8C4CB2B29">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>1D8EA0B6-8F8E-D679-353F-C502FC8B6D52</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DESCRICAO" id="CAC0FFE2-711F-0488-5776-558A972A4A3B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>736FD773-05A6-9757-7BAE-1374FE8FA14C</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9EB88E1-5E32-4679-B288-93EF12B80DD9" name="PK_T_INSIGHTIA_ANUNCIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>4EB41675-ECB1-7A78-579E-098D73FCC38C</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E746B262-C763-D34C-68C6-B4485F1C2AF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D77E1AB2-2728-1508-43B3-79D5EC8C5D26" name="Relation_2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>AEC7E6CC-3BA5-31AD-9E48-209533F10D95</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C970F9-A78E-9DA7-A2FB-BFFCA1E269EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

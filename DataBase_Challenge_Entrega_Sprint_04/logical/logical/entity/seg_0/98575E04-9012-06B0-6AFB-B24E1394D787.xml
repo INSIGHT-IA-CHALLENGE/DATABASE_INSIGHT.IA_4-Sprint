@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98575E04-9012-06B0-6AFB-B24E1394D787" name="T_INSIGHTIA_ANUNCIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-05 22:42:21 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ANUNCIO" id="7DA3ECC5-19AB-9E54-BEC2-D3B8FC2574E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:17:45 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO " id="E0AB565D-1F57-5283-D760-8080AFA3C4A6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 22:43:48 UTC</createdTime>
+<generatorID>AEC7E6CC-3BA5-31AD-9E48-209533F10D95</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<referedAttribute>FFD93EEA-4CDC-F71E-C0F3-2A155BF7D8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ATIVO" id="1D8EA0B6-8F8E-D679-353F-C502FC8B6D52">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:18:10 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_DESCRICAO" id="736FD773-05A6-9757-7BAE-1374FE8FA14C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:19:06 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EB41675-ECB1-7A78-579E-098D73FCC38C" name=" PK_T_INSIGHTIA_ANUNCIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:18:01 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7DA3ECC5-19AB-9E54-BEC2-D3B8FC2574E1</newElementsIDs>
+<usedAttributes>
+<attributeRef>7DA3ECC5-19AB-9E54-BEC2-D3B8FC2574E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

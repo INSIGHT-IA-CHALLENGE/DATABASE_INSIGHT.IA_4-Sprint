@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46DC3909-BEED-5184-D75B-87957D47F373" name="T_INSIGHTIA_TRANSACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>5E11ED15-2A2A-D55E-81E8-E9ED0C036CF3</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSACAO" id="1E8838F7-7B9F-3E0D-2885-92CC6B5C7AD8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>007B2484-2616-4FF1-A02D-13E9D9CF42BA</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="66B30D74-C0B4-C014-B739-2F4C759E103B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>4EEBC165-EB2E-5F38-FD62-C562CC110FAF</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55F95EE5-637B-A41C-BC3D-240AFA4C06E4" referredColumn="0AEC76A3-D8E9-692A-A18F-E9C97BD94DC3"/>
+</associations>
+</Column>
+<Column name="DS_TITULO" id="6765D25C-4DF1-71CB-E6DA-113FC15E00FE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>BA194B34-FB36-2964-3F0E-371C9C80210A</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TRANSACAO" id="86806A5B-3CB0-6812-BD83-0B775E77BF39">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>2A812A4B-FE6F-5424-96E3-E8CF9C86D8C1</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="68E72E95-8304-19F6-CEB9-7B2DEF5B509C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>1E83F6D7-CDD7-025A-2354-6D6F757713FD</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_VALOR" id="8C7F5FAD-D075-C237-ECA0-AAF0E1348E17">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>621E4E51-309D-E66A-8306-0081877B8B97</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05AFCA9B-2E3F-E32A-22B8-AE3ABCDEFB67" name="PK_T_INSIGHTIA_TRANSACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>71BC31F1-8A63-0906-1724-FFC86BF7EA5A</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8838F7-7B9F-3E0D-2885-92CC6B5C7AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEFAB971-3C16-CF32-A96B-2253BD2C8DC9" name="Relation_4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 23:07:06 UTC</createdTime>
+<generatorID>DB91A53B-DC1C-5572-B280-87527A2D83EC</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B30D74-C0B4-C014-B739-2F4C759E103B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

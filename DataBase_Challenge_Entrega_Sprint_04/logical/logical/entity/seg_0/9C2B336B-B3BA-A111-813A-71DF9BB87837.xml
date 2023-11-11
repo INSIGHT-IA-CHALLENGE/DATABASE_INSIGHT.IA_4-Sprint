@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C2B336B-B3BA-A111-813A-71DF9BB87837" name="T_INSIGHTIA_USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-05 22:41:51 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USUARIO " id="FFD93EEA-4CDC-F71E-C0F3-2A155BF7D8FA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:08:55 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="A948F6D3-F099-2868-FD1F-E45C0D6E4354">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:10:22 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO " id="AE1DA42B-CD75-A668-4D40-AE989A403D9F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:09:28 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SENHA" id="E735A2E9-2922-C33C-BAEE-0016AAD3B1C7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:11:23 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_SALDO" id="0DEE19E6-8A5B-F0B9-6FE9-117CE0B872BB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:11:28 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF9E236B-C476-D6D8-0902-099F9C6AF8BB" name="PK_T_INSIGHTIA_USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:09:18 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FFD93EEA-4CDC-F71E-C0F3-2A155BF7D8FA</newElementsIDs>
+<usedAttributes>
+<attributeRef>FFD93EEA-4CDC-F71E-C0F3-2A155BF7D8FA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0B4A5B6E-8CDF-938C-CCA3-324E28912144" name="UK_USUARIO_EMAIL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 22:46:47 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<newElementsIDs>A948F6D3-F099-2868-FD1F-E45C0D6E4354</newElementsIDs>
+<usedAttributes>
+<attributeRef>A948F6D3-F099-2868-FD1F-E45C0D6E4354</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DE060782-D881-15D3-C7F8-009D0C4FC397" name="UK_NM_USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 22:48:32 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<newElementsIDs>AE1DA42B-CD75-A668-4D40-AE989A403D9F</newElementsIDs>
+<usedAttributes>
+<attributeRef>AE1DA42B-CD75-A668-4D40-AE989A403D9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

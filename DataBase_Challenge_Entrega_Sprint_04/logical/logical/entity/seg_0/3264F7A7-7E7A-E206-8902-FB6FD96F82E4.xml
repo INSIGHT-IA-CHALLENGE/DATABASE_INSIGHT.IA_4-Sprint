@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3264F7A7-7E7A-E206-8902-FB6FD96F82E4" name="T_INSIGHTIA_COMANDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:25:34 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMANDO" id="E2EAEE61-46B8-F15E-7CAF-2F02D841BB81">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:26:25 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ANUNCIO" id="3717427A-4813-0BBC-3FB0-9830CAD3AC85">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-16 22:44:34 UTC</createdTime>
+<generatorID>B3B896C7-E914-B841-E064-61DF5A5ED25E</generatorID>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<referedAttribute>7DA3ECC5-19AB-9E54-BEC2-D3B8FC2574E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CONTEUDO" id="FF12FB25-0217-B227-7481-46DA991AEDF0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:27:38 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6217402E-94BD-08C5-A188-9869EE94F550" name="PK_T_INSIGHTIA_COMANDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-06 00:26:59 UTC</createdTime>
+<ownerDesignName>logical </ownerDesignName>
+<engineerTo>
+<item key="B615D8CE-5625-6C48-C944-A8D422FD2FAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E2EAEE61-46B8-F15E-7CAF-2F02D841BB81</newElementsIDs>
+<usedAttributes>
+<attributeRef>E2EAEE61-46B8-F15E-7CAF-2F02D841BB81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
